@@ -4,7 +4,6 @@ body {
     padding: 50px;
     background-color: #f9f9f9;
     /* Soft background color */
-
 }
 
 header {
@@ -62,9 +61,46 @@ button span {
     position: relative;
 }
 
-.output{
+.output {
     margin-top: 15vh;
     color: #ff6666;
     font-weight: 900;
     font-size: 3rem;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 767px) {
+    body {
+        padding: 20px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+
+    .output {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    .output {
+        font-size: 1.5rem;
+    }
 }
